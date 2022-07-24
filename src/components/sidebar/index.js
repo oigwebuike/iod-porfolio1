@@ -1,13 +1,10 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
 import myLogo from '../../assets/images/sphere_wire.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
-//<img src={LogoSubtitle} alt='logosub' className='sub-logo'/>
 
 
 const Sidebar = () => {

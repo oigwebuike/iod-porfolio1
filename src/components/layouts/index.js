@@ -1,7 +1,7 @@
 import './index.scss'
 import { Outlet } from 'react-router-dom'
 import React from 'react'
-import Sidebar from '../sidebar'
+import Sidebar from '../Sidebar'
 
 const Layout = () => {
   return (
@@ -19,6 +19,7 @@ const Layout = () => {
         </span>
 
        </div>
+       
     </div>
   )
 }
